@@ -1,0 +1,25 @@
+{
+  "name": "pty-example",
+  "version": "1.0.0",
+  "description": "A Node.js application to spawn and interact with a pseudo-terminal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-pty": "^0.10.1"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "node-pty",
+    "os",
+    "pseudo-terminal",
+    "shell",
+    "terminal"
+  ],
+  "author": "Ton Nom",
+  "license": "MIT"
+}
